@@ -1,16 +1,19 @@
-# sesi_2
+📌 Expense Tracker CLI
 
-A new Flutter project.
+A simple command-line application to record and track expenses efficiently using Dart.
 
-## Getting Started
+📖 Features
 
-This project is a starting point for a Flutter application.
+✔ Add expenses with category, amount, and optional notes
+✔ View expense history within a specific date range
+✔ Show total expenses from the last 30 days
+✔ Validates input (amount must be positive, category selection is guided)
+✔ Ensures date constraints (up to 1 year past, max 7 days future)
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Ensure you have Dart installed on your machine
+- Ensure you import intl package in your pubspec.yaml
+- Ensure run the command "dart pub get" to install the dependencies
+- Ensure configuration of the environment variable in your machine
+- Run use the command "dart run /path to file" to run the application on terminal
